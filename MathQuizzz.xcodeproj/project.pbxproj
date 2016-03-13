@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59346C661C920A7A004F5262 /* xTgqqkLTA.png in Resources */ = {isa = PBXBuildFile; fileRef = 59346C651C920A7A004F5262 /* xTgqqkLTA.png */; };
+		59346C681C920CDA004F5262 /* 134980604011593455Blank Blue Button.svg.thumb (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 59346C671C920CDA004F5262 /* 134980604011593455Blank Blue Button.svg.thumb (1).png */; };
+		59346C6B1C921098004F5262 /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59346C6A1C921098004F5262 /* math.jpg */; };
+		59346C6D1C9213DD004F5262 /* Media4.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59346C6C1C9213DD004F5262 /* Media4.xcassets */; };
+		59346C6F1C9213EF004F5262 /* Media5.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59346C6E1C9213EF004F5262 /* Media5.xcassets */; };
+		59738F291C8DF70C00F76FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738F281C8DF70C00F76FE1 /* AppDelegate.swift */; };
+		59738F2B1C8DF70C00F76FE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738F2A1C8DF70C00F76FE1 /* ViewController.swift */; };
+		59738F2E1C8DF70C00F76FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59738F2C1C8DF70C00F76FE1 /* Main.storyboard */; };
+		59738F301C8DF70C00F76FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59738F2F1C8DF70C00F76FE1 /* Assets.xcassets */; };
+		59738F331C8DF70C00F76FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59738F311C8DF70C00F76FE1 /* LaunchScreen.storyboard */; };
+		59738F3E1C8DF70C00F76FE1 /* MathQuizzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738F3D1C8DF70C00F76FE1 /* MathQuizzzTests.swift */; };
+		59738F491C8DF70C00F76FE1 /* MathQuizzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738F481C8DF70C00F76FE1 /* MathQuizzzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59738F3A1C8DF70C00F76FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59738F1D1C8DF70C00F76FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59738F241C8DF70C00F76FE1;
+			remoteInfo = MathQuizzz;
+		};
+		59738F451C8DF70C00F76FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59738F1D1C8DF70C00F76FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59738F241C8DF70C00F76FE1;
+			remoteInfo = MathQuizzz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59346C651C920A7A004F5262 /* xTgqqkLTA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xTgqqkLTA.png; sourceTree = "<group>"; };
+		59346C671C920CDA004F5262 /* 134980604011593455Blank Blue Button.svg.thumb (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "134980604011593455Blank Blue Button.svg.thumb (1).png"; sourceTree = "<group>"; };
+		59346C6A1C921098004F5262 /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
+		59346C6C1C9213DD004F5262 /* Media4.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media4.xcassets; sourceTree = "<group>"; };
+		59346C6E1C9213EF004F5262 /* Media5.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media5.xcassets; sourceTree = "<group>"; };
+		59738F251C8DF70C00F76FE1 /* MathQuizzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathQuizzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738F281C8DF70C00F76FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59738F2A1C8DF70C00F76FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59738F2D1C8DF70C00F76FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59738F2F1C8DF70C00F76FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59738F321C8DF70C00F76FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59738F341C8DF70C00F76FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59738F391C8DF70C00F76FE1 /* MathQuizzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathQuizzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738F3D1C8DF70C00F76FE1 /* MathQuizzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizzzTests.swift; sourceTree = "<group>"; };
+		59738F3F1C8DF70C00F76FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59738F441C8DF70C00F76FE1 /* MathQuizzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathQuizzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738F481C8DF70C00F76FE1 /* MathQuizzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizzzUITests.swift; sourceTree = "<group>"; };
+		59738F4A1C8DF70C00F76FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59738F221C8DF70C00F76FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F361C8DF70C00F76FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F411C8DF70C00F76FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59346C691C920CE0004F5262 /* UI Images */ = {
+			isa = PBXGroup;
+			children = (
+				59346C651C920A7A004F5262 /* xTgqqkLTA.png */,
+				59346C671C920CDA004F5262 /* 134980604011593455Blank Blue Button.svg.thumb (1).png */,
+				59346C6A1C921098004F5262 /* math.jpg */,
+			);
+			name = "UI Images";
+			sourceTree = "<group>";
+		};
+		59738F1C1C8DF70C00F76FE1 = {
+			isa = PBXGroup;
+			children = (
+				59346C6C1C9213DD004F5262 /* Media4.xcassets */,
+				59346C6E1C9213EF004F5262 /* Media5.xcassets */,
+				59738F271C8DF70C00F76FE1 /* MathQuizzz */,
+				59738F3C1C8DF70C00F76FE1 /* MathQuizzzTests */,
+				59738F471C8DF70C00F76FE1 /* MathQuizzzUITests */,
+				59738F261C8DF70C00F76FE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59738F261C8DF70C00F76FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59738F251C8DF70C00F76FE1 /* MathQuizzz.app */,
+				59738F391C8DF70C00F76FE1 /* MathQuizzzTests.xctest */,
+				59738F441C8DF70C00F76FE1 /* MathQuizzzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59738F271C8DF70C00F76FE1 /* MathQuizzz */ = {
+			isa = PBXGroup;
+			children = (
+				59738F281C8DF70C00F76FE1 /* AppDelegate.swift */,
+				59738F2A1C8DF70C00F76FE1 /* ViewController.swift */,
+				59738F2C1C8DF70C00F76FE1 /* Main.storyboard */,
+				59738F2F1C8DF70C00F76FE1 /* Assets.xcassets */,
+				59738F311C8DF70C00F76FE1 /* LaunchScreen.storyboard */,
+				59738F341C8DF70C00F76FE1 /* Info.plist */,
+				59346C691C920CE0004F5262 /* UI Images */,
+			);
+			path = MathQuizzz;
+			sourceTree = "<group>";
+		};
+		59738F3C1C8DF70C00F76FE1 /* MathQuizzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				59738F3D1C8DF70C00F76FE1 /* MathQuizzzTests.swift */,
+				59738F3F1C8DF70C00F76FE1 /* Info.plist */,
+			);
+			path = MathQuizzzTests;
+			sourceTree = "<group>";
+		};
+		59738F471C8DF70C00F76FE1 /* MathQuizzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59738F481C8DF70C00F76FE1 /* MathQuizzzUITests.swift */,
+				59738F4A1C8DF70C00F76FE1 /* Info.plist */,
+			);
+			path = MathQuizzzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59738F241C8DF70C00F76FE1 /* MathQuizzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738F4D1C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzz" */;
+			buildPhases = (
+				59738F211C8DF70C00F76FE1 /* Sources */,
+				59738F221C8DF70C00F76FE1 /* Frameworks */,
+				59738F231C8DF70C00F76FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathQuizzz;
+			productName = MathQuizzz;
+			productReference = 59738F251C8DF70C00F76FE1 /* MathQuizzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59738F381C8DF70C00F76FE1 /* MathQuizzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738F501C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzzTests" */;
+			buildPhases = (
+				59738F351C8DF70C00F76FE1 /* Sources */,
+				59738F361C8DF70C00F76FE1 /* Frameworks */,
+				59738F371C8DF70C00F76FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59738F3B1C8DF70C00F76FE1 /* PBXTargetDependency */,
+			);
+			name = MathQuizzzTests;
+			productName = MathQuizzzTests;
+			productReference = 59738F391C8DF70C00F76FE1 /* MathQuizzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59738F431C8DF70C00F76FE1 /* MathQuizzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738F531C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzzUITests" */;
+			buildPhases = (
+				59738F401C8DF70C00F76FE1 /* Sources */,
+				59738F411C8DF70C00F76FE1 /* Frameworks */,
+				59738F421C8DF70C00F76FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59738F461C8DF70C00F76FE1 /* PBXTargetDependency */,
+			);
+			name = MathQuizzzUITests;
+			productName = MathQuizzzUITests;
+			productReference = 59738F441C8DF70C00F76FE1 /* MathQuizzzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59738F1D1C8DF70C00F76FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mark Shepherd";
+				TargetAttributes = {
+					59738F241C8DF70C00F76FE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					59738F381C8DF70C00F76FE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 59738F241C8DF70C00F76FE1;
+					};
+					59738F431C8DF70C00F76FE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 59738F241C8DF70C00F76FE1;
+					};
+				};
+			};
+			buildConfigurationList = 59738F201C8DF70C00F76FE1 /* Build configuration list for PBXProject "MathQuizzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59738F1C1C8DF70C00F76FE1;
+			productRefGroup = 59738F261C8DF70C00F76FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59738F241C8DF70C00F76FE1 /* MathQuizzz */,
+				59738F381C8DF70C00F76FE1 /* MathQuizzzTests */,
+				59738F431C8DF70C00F76FE1 /* MathQuizzzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59738F231C8DF70C00F76FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59346C6F1C9213EF004F5262 /* Media5.xcassets in Resources */,
+				59738F331C8DF70C00F76FE1 /* LaunchScreen.storyboard in Resources */,
+				59346C681C920CDA004F5262 /* 134980604011593455Blank Blue Button.svg.thumb (1).png in Resources */,
+				59346C661C920A7A004F5262 /* xTgqqkLTA.png in Resources */,
+				59738F301C8DF70C00F76FE1 /* Assets.xcassets in Resources */,
+				59346C6D1C9213DD004F5262 /* Media4.xcassets in Resources */,
+				59738F2E1C8DF70C00F76FE1 /* Main.storyboard in Resources */,
+				59346C6B1C921098004F5262 /* math.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F371C8DF70C00F76FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F421C8DF70C00F76FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59738F211C8DF70C00F76FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738F2B1C8DF70C00F76FE1 /* ViewController.swift in Sources */,
+				59738F291C8DF70C00F76FE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F351C8DF70C00F76FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738F3E1C8DF70C00F76FE1 /* MathQuizzzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738F401C8DF70C00F76FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738F491C8DF70C00F76FE1 /* MathQuizzzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59738F3B1C8DF70C00F76FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59738F241C8DF70C00F76FE1 /* MathQuizzz */;
+			targetProxy = 59738F3A1C8DF70C00F76FE1 /* PBXContainerItemProxy */;
+		};
+		59738F461C8DF70C00F76FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59738F241C8DF70C00F76FE1 /* MathQuizzz */;
+			targetProxy = 59738F451C8DF70C00F76FE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59738F2C1C8DF70C00F76FE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59738F2D1C8DF70C00F76FE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59738F311C8DF70C00F76FE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59738F321C8DF70C00F76FE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59738F4B1C8DF70C00F76FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59738F4C1C8DF70C00F76FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59738F4E1C8DF70C00F76FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MathQuizzz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59738F4F1C8DF70C00F76FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MathQuizzz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59738F511C8DF70C00F76FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathQuizzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathQuizzz.app/MathQuizzz";
+			};
+			name = Debug;
+		};
+		59738F521C8DF70C00F76FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathQuizzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathQuizzz.app/MathQuizzz";
+			};
+			name = Release;
+		};
+		59738F541C8DF70C00F76FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathQuizzzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathQuizzz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		59738F551C8DF70C00F76FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathQuizzzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.Shepherd.MathQuiz.MathQuizzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathQuizzz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59738F201C8DF70C00F76FE1 /* Build configuration list for PBXProject "MathQuizzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738F4B1C8DF70C00F76FE1 /* Debug */,
+				59738F4C1C8DF70C00F76FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59738F4D1C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738F4E1C8DF70C00F76FE1 /* Debug */,
+				59738F4F1C8DF70C00F76FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59738F501C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738F511C8DF70C00F76FE1 /* Debug */,
+				59738F521C8DF70C00F76FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59738F531C8DF70C00F76FE1 /* Build configuration list for PBXNativeTarget "MathQuizzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738F541C8DF70C00F76FE1 /* Debug */,
+				59738F551C8DF70C00F76FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59738F1D1C8DF70C00F76FE1 /* Project object */;
+}
